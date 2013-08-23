@@ -1,7 +1,7 @@
 #########
 # Preprocess StemCellDB in GEO
 # Andrew Jaffe
-# Updated 4/8/12
+# Updated 4/8/13
 #########################
 
 ##### INSTRUCTIONS ######
