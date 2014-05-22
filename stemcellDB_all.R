@@ -1,7 +1,7 @@
 #########
 # Preprocess StemCellDB in GEO
 # Andrew Jaffe
-# Updated 4/8/13
+# Updated 4/8/12
 #########################
 
 ##### INSTRUCTIONS ######
@@ -194,7 +194,7 @@ plot(pca$x[,1], signed*pca$x[,2],
 	cex.axis=1.5,cex.lab=1.5,
 	xlab = paste("PC1:",pcaVars[1],"% of Variance Explained"),
 	ylab = paste("PC2:",pcaVars[2],"% of Variance Explained"))
-legend("bottom", c("FSB","KSR","UNDIFF"), col = 1:3, 
+legend("bottom", c("FBS","KSR","UNDIFF"), col = 1:3, 
 	pt.cex = 2, nc = 3, cex=1.1, pch = 15)
 dev.off()
 
